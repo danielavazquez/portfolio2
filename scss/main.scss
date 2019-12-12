@@ -20,7 +20,19 @@ body {
 
     }
 }
+
+.nav-link {
+    color: #80FFE3;
+}
+.navbar-brand {
+    color: #80FFE3;
+}
 .header__style {
+    background-image: url("/img/prague.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
     .row{
         .col-lg-12{
             .text{
@@ -50,7 +62,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        min-height: 100vh;         
+        min-height: 100vh;      
     } 
     .circle_skill {
         border-radius: 50%;
