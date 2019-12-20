@@ -28,16 +28,17 @@ body {
     color: #80FFE3;
 }
 .header__style {
-    background-image: url("img/prague.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
     max-width: 100%;
     .row{
+        .upper {
+            color: #C8C8C8;
+        }
         .col-lg-12{
             .text{
                 line-height: 105px;
                 font-weight: bold;
+                
             }
             .text:hover{
                 color:#80FFE3;
